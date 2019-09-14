@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap&subset=latin-ext');
+
+body {
+    background: tomato;
+}
+
+p,
+a {
+    font-family: 'Roboto Mono',
+        monospace;
+    line-height: 150%;
+    color: #000;
+}
+
+img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+h1,
+h2 {
+    font-family: 'Lilita One',
+        cursive;
+    margin: 30px 30px;
+    text-align: center;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+header {
+    margin: 0 auto;
+    background: #000;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px 15px 0px 15px;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: tomato;
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: tomato;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.banner {
+    background-image: url("https://images.pexels.com/photos/1043519/pexels-photo-1043519.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.newsletter {
+    padding: 55px 0px 0px 0px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    color: #000;
+}
+
+.title {
+    text-align: left;
+    font-size: 25px;
+    margin: 0 0 15px 0px;
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+@media (max-width:576px) {
+    .brand {
+        text-align: center;
+    }
+
+    .nav {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
